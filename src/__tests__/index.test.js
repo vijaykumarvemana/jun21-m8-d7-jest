@@ -13,6 +13,14 @@ describe("Testing the testing environment", () => {
         expect(true).toBe(true);
     });
 
+    it("should test that false is false", () => {
+        expect(false).toBe(false);
+    });
+
+    it("should test that 1 is 1", () => {
+        expect(1).toBe(1);
+    });
+
 })
 
 describe("Testing the products endpoints", () => {
