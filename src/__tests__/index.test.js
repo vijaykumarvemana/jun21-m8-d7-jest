@@ -21,6 +21,10 @@ describe("Testing the testing environment", () => {
         expect(1).toBe(1);
     });
 
+    it("should test that 0 is 0", () => {
+        expect(0).toBe(0);
+    });
+
 })
 
 describe("Testing the products endpoints", () => {
